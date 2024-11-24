@@ -252,7 +252,7 @@ section,
 
   section p {
     font-size: 1rem;
-    max-width: 90%; /* Reduce width for smaller layouts */
+    max-width: 90%;
   }
 
   section ul li {
@@ -262,6 +262,14 @@ section,
 
 /* Extra Small Screens (up to 480px) */
 @media (max-width: 480px) {
+  header nav ul li {
+    margin: 0 6px;
+  }
+
+  header nav ul li a {
+    font-size: 0.8rem;
+  }
+
   .hero-content p {
     font-size: 1rem;
   }
